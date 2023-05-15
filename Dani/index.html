@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sortare alfabetică</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Sortați alfabetic lista dumneavoastră</h1>
+
+  <div>
+    <label for="nameInput">Introduceți nume:</label>
+    <input type="text" id="nameInput" placeholder="Introduceți un nume">
+    <button id="addButton">Adaugă</button>
+  </div>
+  
+  
+  <div>
+    <label for="listTextarea">Introduceți o listă de nume (unul pe linie):</label>
+    <textarea id="listTextarea"></textarea>
+  </div>
+
+  <div>
+    <label for="fileInput">Importați un fișier TXT sau CSV:</label>
+    <input type="file" id="fileInput" accept=".txt,.csv">
+  </div>
+
+  <button id="sortButton">Sortați</button>
+
+  <div id="sortedList"></div>
+  <div id="count"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
